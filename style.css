@@ -1,0 +1,106 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #343a40;
+    color: white;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #f8f9fa;
+    text-decoration: none;
+}
+
+.navbar a {
+    color: #f8f9fa;
+    margin: 0 10px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.navbar a:hover, .navbar .active {
+    color: #ffc107;
+}
+
+.home {
+    background: #f1f1f1;
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.home h1 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+    color: #333;
+}
+
+.home p {
+    color: #555;
+}
+
+.about-content, .contact {
+    padding: 50px 30px;
+    text-align: center;
+}
+
+.about-content h2,
+.contact h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.btn:hover {
+    background-color: #0056b3;
+}
+
+form .input-box {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+footer {
+    background: #343a40;
+    color: white;
+    text-align: center;
+    padding: 20px 10px;
+    margin-top: 20px;
+}
+
+.footer-iconTop a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.footer-iconTop a:hover {
+    color: #ffc107;
+}
