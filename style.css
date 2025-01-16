@@ -104,3 +104,8 @@ footer {
 .footer-iconTop a:hover {
     color: #ffc107;
 }
+.about-img img {
+    width: 300px;
+    height: 300px;
+    border-radius: 20px; 
+}
