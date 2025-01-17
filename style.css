@@ -1,111 +1,148 @@
-body {
-    font-family: 'Arial', sans-serif;
+
+.section {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: lightgrey;
+    
+}
+
+#navbar-example2 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+    color: #050505;
+ 
+  
+}
+
+.image-img {
+    
+    position: absolute;
+    flex-shrink: 0;
+    text-align: right;
+    height: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: flex-end; 
+   
+       
+}
+
+.image-img img {
+    margin-top: -600px;
+    margin-right: -600px;
+    width: 300px; 
+    height: 300px;
+    object-fit: cover;
+    border-radius: 50%;
+    align-items: absolute;
+    
+
+}
+
+
+/* sa home hehe */
+.about-content {
+   
+    margin-left: -300px; 
+    margin-top: -85px;
+    font-size: 17px;
+    text-align: left; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
     line-height: 1.6;
 }
 
-.header {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px 30px;
-    background-color: #343a40;
-    color: white;
+/* sa about nga part  */
+.about-details {
+    text-align: left; 
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-left: -300px; 
+    margin-top: -85px;
 }
 
-.header .logo {
+
+/* Education Section */
+.education-content {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-left: -300px;
+    margin-top: -85px;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+/* sa contact nga part */
+.contact-content {
+    text-align: left;
+    font-family: 'Poppins', sans-serif;
+    font-size: 17px;
+    line-height: 1.6;
+    margin-left: -300px;
+    margin-top: -85px;
+    background-color: lightgrey;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+.education-content h3,
+.contact-content h3 {
     font-size: 1.5rem;
-    font-weight: bold;
-    color: #f8f9fa;
-    text-decoration: none;
+    font-weight: 600;
+    color: #222;
+    margin-bottom: 10px;
 }
 
-.navbar a {
-    color: #f8f9fa;
-    margin: 0 10px;
-    text-decoration: none;
-    transition: color 0.3s;
+/* katong icon sa fb, yt */
+.social-media i {
+    font-size: 1.8rem; 
+    margin: 10px; 
+    transition: transform 0.3s ease; 
 }
 
-.navbar a:hover, .navbar .active {
-    color: #ffc107;
+.social-media i:hover {
+    transform: scale(1.2); }
+
+
+.profile-image {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    position: absolute;
+    top: 800px;
+    right: 170px;
+   
+}
+ 
+
+h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #222; 
 }
 
-.home {
-    background: #f1f1f1;
-    padding: 50px 30px;
-    text-align: center;
-}
-
-.home h1 {
-    font-size: 2.5rem;
-    margin: 15px 0;
-    color: #333;
-}
-
-.home p {
+h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
     color: #555;
 }
 
-.about-content, .contact {
-    padding: 50px 30px;
-    text-align: center;
-}
-
-.about-content h2,
-.contact h2 {
-    font-size: 2rem;
-    margin-bottom: 20px;
-}
-
-.btn {
-    display: inline-block;
-    margin-top: 20px;
-    padding: 10px 20px;
-    background-color: #007bff;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s;
-}
-
-.btn:hover {
-    background-color: #0056b3;
-}
-
-form .input-box {
-    display: flex;
-    gap: 15px;
-    margin-bottom: 20px;
-}
-
-form input, form textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-}
-
-footer {
-    background: #343a40;
-    color: white;
-    text-align: center;
-    padding: 20px 10px;
-    margin-top: 20px;
-}
-
-.footer-iconTop a {
-    color: white;
-    font-size: 1.5rem;
-    text-decoration: none;
-    display: inline-block;
-    margin-top: 10px;
-}
-
-.footer-iconTop a:hover {
-    color: #ffc107;
-}
-.about-img img {
-    width: 300px;
-    height: 300px;
-    border-radius: 20px; 
+p {
+    font-size: 1rem;
+    color: #444; 
 }
